@@ -16,14 +16,16 @@
 .header-top-items {
     display: flex;
     height: 30px;
-    width: 490px;
+    width: 50%;
     align-items: center;
     margin-top: 10px;
+    justify-content: space-evenly;
 }
 
 .top-right {
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: rgb(109, 116, 125);
+    margin-right: 10%;
 }
 
 .header-bottom-items {
@@ -63,12 +65,14 @@
 .logo {
     font-size: 24px;
     font-weight: bolder;
+    width: 30%;
 }
 
 .container-midtop {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
+    width: 100%;
 }
 
 .midtop-title {
